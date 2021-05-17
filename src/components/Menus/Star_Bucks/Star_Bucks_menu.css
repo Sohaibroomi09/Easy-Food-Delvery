@@ -1,0 +1,87 @@
+.StarBucks_menu_bg {
+    padding: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+      url("../../../Images/Starbucksbuilding.webp");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .StarBucks_MenuCard {
+    width: 60%;
+    height: 90%;
+    top: 5%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px #ffc500;
+  
+    padding: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+      url("../../../Images/Starbucksbuilding.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .StarBucks_Item1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 96%;
+    height: 25%;
+    margin: auto;
+  }
+  
+  .StarBucks_prod1 {
+    width: 45%;
+    height: 98%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 5px #ffc500;
+  }
+  
+  .picture2 {
+    width: 40%;
+    height: 92%;
+    margin: auto;
+    background: url("../../../Images/starbuckscoffee.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .starbucks_item_info {
+    width: 55%;
+    height: 95%;
+    margin: auto;
+    color: white;
+  }
+  
+  .starbucks_item_info h2 {
+    letter-spacing: 1px;
+  }
+  
+  .starbucks_item_info p {
+    letter-spacing: 0.5px;
+  }
+  
+  .starbucks_order_button {
+    margin-left: 55%;
+    margin-right: 5%;
+    margin-top: 13%;
+    background: #e31837;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .starbucks_order_button:hover {
+    background: #ffc500;
+      transition: 0.2s ease-out;
+      cursor: pointer;
+      color: #000;
+  }

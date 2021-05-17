@@ -1,0 +1,47 @@
+.Nav {
+    background: transparent;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.NavLink {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.NavBtnWrap {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and ( max-width: 400px ) {
+    .NavLink {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+    }
+}
+
+.NavIcon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.NavIcon p {
+    transform: translate(-175%, 100%);
+    font-weight: bold;
+}
+
+.Bars {
+    font-size: 2rem;
+    transform: translate(-50%, -15%);
+}
